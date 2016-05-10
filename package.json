@@ -1,0 +1,21 @@
+{
+  "name": "seed-prj",
+  "version": "1.0.0",
+  "description": "My awesome app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "uglify": "uglifyjs --compress --mangle -o ugly-enough.min.js too-cute.js",
+    "express": "node express-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "lodash": "^4.6.1"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  }
+}
